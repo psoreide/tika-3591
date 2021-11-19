@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="Local" increment="1637142945071">
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="license" value="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+      <attribute name="osgi.identity" value="org.apache.felix.webconsole"/>
+      <attribute name="documentation" value="http://felix.apache.org/site/apache-felix-web-console.html"/>
+      <attribute name="description" value="Web Based Management Console for OSGi Frameworks. See        http://felix.apache.org/site/apache-felix-web-console.html for more        information on this bundle."/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="4.3.4.all" type="Version"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.servlet.http,org.apache.commons.fileupload.disk,org.apache.commons.fileupload.util"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.felix.webconsole"/>
+      <attribute name="bundle-version" value="4.3.4.all" type="Version"/>
+      <attribute name="version" value="1.2.1" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.fileupload"/>
+      <attribute name="bnd.hashes" value="265218032,-517139718,1752102970,-671208753,-522868933,1364321719,1700046360,1642092637,720112722,-2120560849,-446447939,-1940621841,1328920605,425110494,490957548,947625772,-237627725,-1575964370,-1020244670,1552154948,-69496018,636253714,1371964047,-1450025289,1300784020,1285007123,1272035116,-670273272,1045803553,-1906608064" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.fileupload,org.apache.commons.io"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.felix.webconsole"/>
+      <attribute name="bundle-version" value="4.3.4.all" type="Version"/>
+      <attribute name="version" value="1.2.1" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.fileupload.disk"/>
+      <attribute name="bnd.hashes" value="-1433165940,-1506552866" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.servlet,javax.servlet.http,org.apache.commons.fileupload,org.apache.commons.io"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.felix.webconsole"/>
+      <attribute name="bundle-version" value="4.3.4.all" type="Version"/>
+      <attribute name="version" value="1.2.1" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.fileupload.servlet"/>
+      <attribute name="bnd.hashes" value="-237423158,1257340578,-175325787" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.fileupload"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.felix.webconsole"/>
+      <attribute name="bundle-version" value="4.3.4.all" type="Version"/>
+      <attribute name="version" value="1.2.1" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.fileupload.util"/>
+      <attribute name="bnd.hashes" value="1521866546,-435353481,467107344,-217237293" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.io.filefilter"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.felix.webconsole"/>
+      <attribute name="bundle-version" value="4.3.4.all" type="Version"/>
+      <attribute name="version" value="1.4.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.io"/>
+      <attribute name="bnd.hashes" value="-794562020,745415381,774556899,1797207478,128433018,-1851100689,597258008,-2053101885,412779781,656598778,-441444218,678451317,-635163958,-1814703217,-2129988234,1038622586,-1587945685,460274850" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.io"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.felix.webconsole"/>
+      <attribute name="bundle-version" value="4.3.4.all" type="Version"/>
+      <attribute name="version" value="1.4.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.io.filefilter"/>
+      <attribute name="bnd.hashes" value="120186358,828453459,-765983445,-2100563430,-412277885,-69960934,-320687207,1192164929,1692744993,-994083465,1593283280,203760861,-2137403010,-274477606,25121055,1157376807,2031230583,1685644390,2066921371,1123146517,-123828635,1626514530,1086547374,240938514" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.apache.felix.webconsole"/>
+      <attribute name="bundle-version" value="4.3.4.all" type="Version"/>
+      <attribute name="version" value="1.4.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.io.output"/>
+      <attribute name="bnd.hashes" value="-1099351918,-1021488670,-279117939,1661385748,-2120183396,-1209658096,507082504,-396682220,-1231611096,-256593670,1008204111,-417007519,-1271456267,-1872202440" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.apache.felix.webconsole"/>
+      <attribute name="bundle-version" value="4.3.4.all" type="Version"/>
+      <attribute name="version" value="1.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.felix.inventory"/>
+      <attribute name="bnd.hashes" value="2110055447,1190693694,1415425301" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.servlet,javax.servlet.http,org.osgi.framework"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.felix.webconsole"/>
+      <attribute name="bundle-version" value="4.3.4.all" type="Version"/>
+      <attribute name="version" value="3.3.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.felix.webconsole"/>
+      <attribute name="bnd.hashes" value="-539451086,-1030560552,-357847980,216828462,1415495268,-198628721,-1382742301,-65076929,-1176072600,-1560347966,1790414092,1650484980,-374573122,-374573121,-1087712731" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.osgi.framework"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.felix.webconsole"/>
+      <attribute name="bundle-version" value="4.3.4.all" type="Version"/>
+      <attribute name="version" value="1.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.felix.webconsole.bundleinfo"/>
+      <attribute name="bnd.hashes" value="-924593040,-2000761215,1361846218" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.osgi.framework"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.felix.webconsole"/>
+      <attribute name="bundle-version" value="4.3.4.all" type="Version"/>
+      <attribute name="version" value="1.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.felix.webconsole.i18n"/>
+      <attribute name="bnd.hashes" value="-1767282745" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="4.3.4.all" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="org.apache.felix.webconsole"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="4.3.4.all" type="Version"/>
+      <attribute name="osgi.wiring.host" value="org.apache.felix.webconsole"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="658788" type="Long"/>
+      <attribute name="url" value="org.apache.felix.webconsole/org.apache.felix.webconsole-4.3.4.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="7FEB87D236536312634BD0E42CC0A31D3E3B4AFFD2131E51A461DDC86A106A88"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.servlet)(version&gt;=2.4.0)(!(version&gt;=4.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="javax.servlet"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.servlet.http)(version&gt;=2.4.0)(!(version&gt;=4.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="javax.servlet.http"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.io)(version&gt;=1.4.0)(!(version&gt;=3.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.io"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.fileupload)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.fileupload"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.fileupload.disk)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.fileupload.disk"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.fileupload.servlet)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.fileupload.servlet"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.fileupload.util)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.fileupload.util"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.io.filefilter)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.io.filefilter"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.io.output)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.io.output"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.felix.inventory)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.apache.felix.inventory"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.felix.webconsole.bundleinfo)(version&gt;=1.0.0)(!(version&gt;=1.1.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.apache.felix.webconsole.bundleinfo"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.osgi.framework"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.service.http)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.osgi.service.http"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.service.packageadmin)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.osgi.service.packageadmin"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.service.startlevel)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.osgi.service.startlevel"/>
+    </requirement>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.6))"/>
+    </requirement>
+  </resource>
+</repository>

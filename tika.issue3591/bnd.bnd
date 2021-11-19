@@ -1,0 +1,26 @@
+Bundle-Version: 1.0.0.${tstamp}
+
+-baseline: *
+-buildpath: \
+	osgi.annotation;version='7.0.0',\
+	osgi.cmpn;version='7.0.0',\
+	org.apache.tika.core,\
+	org.apache.tika.parsers-standard-package,\
+	slf4j.api;version='1.7',\
+	osgi.core;version='7.0'
+
+javac.source: 11
+javac.target: 11
+
+-includeresource: resources
+
+-privatepackage: \
+	tika.issue3591.provider,\
+	tika.issue3591.commands
+
+Export-Package: tika.issue3591
+
+## Tika does not provide these capabilities. We need to add them if '-resolve.effective: active' is set 
+#Provide-Capability: \
+#	osgi.service; objectClass=org.apache.tika.detect.Detector;effective:=active,\
+#	osgi.service; objectClass=org.apache.tika.parser.Parser;effective:=active

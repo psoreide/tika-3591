@@ -1,0 +1,5 @@
+Bundle-Version: 1.0.0.${tstamp}
+
+Fragment-Host: ch.qos.logback.classic
+
+-includeresource: logback.xml = logback.xml

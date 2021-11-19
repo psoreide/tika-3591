@@ -1,0 +1,16 @@
+<configuration>
+
+    <!-- defined a console append -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%.15thread] %-5level %logger{36}:%line - %msg%n</pattern>
+        </encoder>
+        <target>System.out</target>
+    </appender>
+
+    <logger name="tika.issue3591" level="DEBUG"/>
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT" />
+    </root>
+</configuration>
